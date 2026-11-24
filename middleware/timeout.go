@@ -11,3 +11,5 @@ func Timeout(d time.Duration, next http.Handler) http.Handler {
 
 const DefaultIdleTimeout = 60 * time.Second
 
+const DefaultReadHeaderTimeout = 5 * time.Second
+
